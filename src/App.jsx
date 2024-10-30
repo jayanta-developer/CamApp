@@ -8,7 +8,8 @@ function App() {
   console.log(takeImgErr);
 
   // Server URL to post the image
-  const serverUrl = 'http://localhost:4000/post-image'; // Replace with your actual server URL
+  // const serverUrl = 'http://localhost:4000/post-image'; 
+  const serverUrl = 'https://cam-server-751q.onrender.com/post-image';
 
   // Function to take photo and post it to the server
   const takePhotoAndPost = async () => {
