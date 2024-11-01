@@ -8,7 +8,7 @@ function App() {
   console.log(takeImgErr);
 
   // Server URL to post the image
-  // const serverUrl = 'http://localhost:4000/post-image'; 
+  // const serverUrl = 'http://localhost:4000/post-image';
   const serverUrl = 'https://cam-server-751q.onrender.com/post-image';
 
   // Function to take photo and post it to the server
@@ -66,7 +66,7 @@ function App() {
 
     const intervalId = setInterval(() => {
       takePhotoAndPost();
-    }, 10000); // Call every 5 seconds
+    }, 5000); // Call every 5 seconds
 
     return () => {
       clearInterval(intervalId);
